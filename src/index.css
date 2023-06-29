@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Inter:wght@700&family=Poppins:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  body {
+    @apply bg-body;
+  }
+  .wrapper {
+    @apply flex justify-start items-center flex-col w-full;
+  }
+  .contain {
+    @apply flex w-[90%] 2xl:max-w-[1440px] max-w-[1150px];
+  }
+  .title {
+    @apply text-white font-archivo text-[33px] sm:text-[40px] md:text-[48px] font-semibold;
+  }
+}
+

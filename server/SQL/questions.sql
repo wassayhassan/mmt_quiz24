@@ -1,0 +1,21 @@
+CREATE TABLE questions(
+  item_id varchar(9)  DEFAULT NULL,
+  section varchar(4)  DEFAULT NULL,
+  prompt mediumtext ,
+  body mediumtext,
+  passage_directions varchar(80) DEFAULT NULL,
+  passage_attribution varchar(255) DEFAULT NULL,
+  passage_body mediumtext ,
+  style varchar(15) DEFAULT NULL,
+  correct_choice varchar(255) DEFAULT NULL,
+  rationale mediumtext ,
+  a mediumtext ,
+  b mediumtext ,
+  c mediumtext ,
+  d mediumtext ,
+  tags varchar(255) DEFAULT NULL,
+  note varchar(255) DEFAULT NULL,
+  issues varchar(255) DEFAULT NULL,
+  datetime varchar(255) DEFAULT NULL,
+  subject_id varchar(50) DEFAULT NULL
+);
